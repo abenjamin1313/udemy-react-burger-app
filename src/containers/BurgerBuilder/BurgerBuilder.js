@@ -8,6 +8,13 @@ import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
 import Spinner from '../../components/UI/Spinner/Spinner';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 
+// Below is to load a COM asyncronously
+//import asyncComponent from '';
+// const AsyncNewPost = asyncComponent(() => {
+//     return import('t');
+// });
+
+
 const INGREDIENT_PRICES = {
     salad: 0.5,
     cheese: 1,
